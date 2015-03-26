@@ -32,8 +32,6 @@ def translate(direction="en-ru", text="Some text",):
     return None
 
 
-
-
 if __name__ == "__main__":
     optlist, arglist = getopt.getopt(sys.argv[1:], "d:t:")
     # print(optlist)
